@@ -16,7 +16,6 @@
 
 
 calculate(){
-  echo $1
   echo "scale=4; $1" | bc
   echo "------------------------------------------------"
   waitinput
